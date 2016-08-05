@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }.getType();
 
                 ArrayList<Student> students = gson.fromJson(json, listType);
-                Log.d(TAG, "onResponse: " + students.size());
+                Log.d(TAG, "onResponse: " + students.toString());
             }
         });
     }
